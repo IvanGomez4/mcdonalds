@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+#logo {
+    width: 20%;
+    float: left;
+}
+header nav {
+    width: 60%;
+    float: left;
+    padding: 26px 0;
+}
+#boton {
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding: 26px 0;
+}
+.cb {
+    clear: both;
+}
+#boton input {
+    background-color: #F6BE45;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 18px;
+    text-align: center;
+    font-size: 15px;
+}
+header nav ul, header nav li{
+    padding: 0;
+    margin: 0;
+}
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    position: relative; /*para que se coloque debajo el submenu*/
+}
+header nav ul li ul{
+    padding-top: 20px;
+    display: none; /*Para que las listas de segundo nivel no se vean*/
+    width: 300px;
+    position: absolute;
+    background-color: white;
+}
+header nav ul li:hover ul {
+    display: block;
+}
+header nav ul li ul li {
+    padding: 20px 0;
+    width: 300px;
+    margin-right: 0px;
+    border-bottom: solid 2px rgb(209, 209, 209);
+}
+header nav img {
+    float: left;
+    width: 80px;
+}
+header ul li ul li:hover {
+    background-color: #F6BE45;
+    border-radius: 6px;
+}
+#grande {
+    background-image: url(../img/grande.jpg);
+    background-size: cover;
+    height: 680px;
+}
+#mycombo {
+    color: #575759;
+    padding: 15%;
+    position: absolute;
+    left: 1px;
+}
+#descubrelo {
+    width: 13%;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #DCDCDC;
+    border: none;
+    color: #848484;
+    position: absolute;
+    top: 400px;
+}
+#cajas {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+#oferta1 {
+    width: 50%;
+    padding-top: 387px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 6px;
+    border-color: #dbdbdb;
+    background-image: url(../img/oferta1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #545454;
+    box-shadow: 0px 0px 7px #dbdbdb;    
+}
+#oferta2 {
+    width: 50%;
+    padding-top: 380px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 6px;
+    border-color: #dbdbdb;  
+    background-image: url(../img/oferta2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #545454;
+    box-shadow: 0px 0px 7px #dbdbdb;
+}
+#botonofertas {
+    padding: 15px;
+    font-size: 15px;
+    background-color: #F6BE45;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin: 10px;
+}
+#features {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    /*flex-grow
+      flex-basis */
+}
+#feature1 {
+    width: 33%;
+    padding-top: 150px;
+    border: 1px solid #717171;
+    border-radius: 6px;
+    border-color: #dbdbdb;
+    background-image: url(../img/feature1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #545454;
+    box-shadow: 0px 0px 7px #dbdbdb;
+}
+#feature2 {
+    width: 33%;
+    padding-top: 150px;
+    border: 1px solid #717171;
+    border-radius: 6px;
+    border-color: #dbdbdb;
+    background-image: url(../img/feature2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    text-align: center;
+    font-size: 10px;
+    color: #545454;
+    box-shadow: 0px 0px 7px #dbdbdb;
+}
+#feature3 {
+    width: 30%;
+    padding-top: 153px;
+    border: 1px solid #717171;
+    border-radius: 6px;
+    border-color: #dbdbdb;
+    background-image: url(../img/feature3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #545454;
+    box-shadow: 0px 0px 7px #dbdbdb;    
+}
+#botonfeature {
+    padding: 15px;
+    font-size: 15px;
+    background-color: #F6BE45;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin: 10px;
+}
+#aviso {
+    width: 20%;
+    text-align: center;
+    margin: 3%;
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+#texto {
+    width: 70%;
+    margin: 3%;
+    padding: 10px;
+    position: absolute;
+    left: 490px;
+    color: #565656;
+}
+#fondo {
+    background-color: #FFBC0D;
+    margin-top: 170px;
+    padding: 15px;
+}
+#fondo1 {
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+    margin-right: 5px;
+}
+#fondo2 {
+    width: 36%;
+    float: left;
+    text-align: center;
+    color: #565656;  
+    margin-left: 10px;   
+}
+#descargaApp {
+    font-size: 25px;
+}
+#descargaApp2 {
+    font-size: 15px;
+}
+#fondo3 {
+    width: 27%;
+    float: right;
+}
+#input3 {
+    padding: 15px;
+    width: 65%;
+    border-radius: 4px;
+    background-color: #DCDCDC;
+    color: #565656;
+    border: none;
+    float: right;
+    font-size: 15px;
+}
+#gotas {
+    margin-left: 130px;
+}
+#rrss {
+    text-align: center;
+    font-size: 27px;
+    color: #565656;
+}
+#facebook {
+    width: 30px;
+}
+#instagram {
+    width: 40px;
+}
+#copyright {
+    float: right;
+    color: #5D5C5A;
+}
+
+
+
+
+
